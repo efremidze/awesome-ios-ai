@@ -2,91 +2,18 @@
 
 > AI agent skills, agent teams, MCP servers, and tools that make AI coding assistants better at Swift and iOS development.
 
-Your AI coding tools write Swift like it is 2020. They use `ObservableObject` when `@Observable` exists. They ignore actor isolation. They produce views with no accessibility modifiers. They have never heard of Apple Foundation Models.
-
-**Skills and agent teams fix that.** They give GitHub Copilot, Claude Code, Cursor, and Codex expert-level Swift and iOS knowledge on demand — so your AI writes modern, accessible, concurrent Swift the way it should be written.
-
-No central resource existed for any of this. Now it does. This is a community effort — contributions welcome.
-
 ## Contents
 
-- [What Are Skills](#what-are-skills)
-- [How to Install](#how-to-install)
 - [Skills](#skills)
-  - [SwiftUI](#swiftui)
-  - [Swift Concurrency](#swift-concurrency)
-  - [Testing](#testing)
-  - [Debugging](#debugging)
-  - [Design and Platform](#design-and-platform)
-  - [Workflow and Automation](#workflow-and-automation)
-  - [Accessibility](#accessibility)
 - [Agents](#agents)
 - [MCP Servers](#mcp-servers)
 - [Resources](#resources)
 
-## What Are Skills
-
-[Agent Skills](https://agentskills.io/) are an open standard for giving AI coding agents specialized knowledge. A skill is a folder containing instructions, reference docs, and scripts that an agent loads on demand when it detects a relevant task.
-
-Skills work across multiple tools — GitHub Copilot, Claude Code, Cursor, Codex, and many more.
-
-## How to Install
-
-Install any skill with a single command using the [skills CLI](https://skills.sh/docs/cli):
-
-```bash
-# Install a single skill globally (available in all projects)
-npx skills add <owner/repo@skill-name> -g -y
-
-# Install ALL skills from an author's repo at once
-npx skills add <owner/repo> --all
-
-# Search for skills
-npx skills find swift
-npx skills find swiftui
-npx skills find ios
-```
-
-Browse all skills at **[skills.sh](https://skills.sh/?q=swift)**.
-
-### Install Everything
-
-Want the full iOS AI skill stack? Run these three commands to install all skills from the top authors:
-
-```bash
-# All skills from Antoine van der Lee (SwiftUI Expert, Concurrency, Testing)
-npx skills add avdlee/swiftui-agent-skill --all
-npx skills add avdlee/swift-concurrency-agent-skill --all
-npx skills add avdlee/swift-testing-agent-skill --all
-
-# All 10 skills from Thomas Ricouard (Performance, Liquid Glass, View Refactor, Debugger, and more)
-npx skills add dimillian/skills --all
-
-# SwiftUI Pro from Paul Hudson
-npx skills add twostraws/swiftui-agent-skill --all
-```
-
-The `--all` flag installs every skill in the repo globally with no prompts.
-
-### One-Command Install (Everything)
-
-Install every skill from this list with a single command:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/Techopolis/awesome-ios-ai/main/install.sh | bash
-```
-
-Or clone and run locally:
-
-```bash
-git clone https://github.com/Techopolis/awesome-ios-ai.git
-cd awesome-ios-ai
-./install.sh
-```
-
-This installs all skills from Antoine van der Lee, Thomas Ricouard, and Paul Hudson — the complete iOS AI skill stack.
-
 ## Skills
+
+[Agent Skills](https://agentskills.io/) are an open standard for giving AI coding agents specialized knowledge. A skill is a folder containing instructions, reference docs, and scripts that an agent loads on demand when it detects a relevant task. Skills work across GitHub Copilot, Claude Code, Cursor, Codex, and more.
+
+Install any skill with the [skills CLI](https://skills.sh/docs/cli): `npx skills add <owner/repo@skill-name> -g -y`
 
 ### SwiftUI
 
@@ -128,17 +55,11 @@ This installs all skills from Antoine van der Lee, Thomas Ricouard, and Paul Hud
 - [iOS Accessibility](https://skills.sh/dpearson2699/swift-ios-skills/ios-accessibility) - Accessibility patterns and VoiceOver support for iOS. By dpearson2699.
 - [Swift Accessibility](https://skills.sh/madebyecho/agent-skills/swift-accessibility) - Accessibility guidance for Swift apps. By madebyecho.
 
-The SwiftUI Pro and SwiftUI Expert skills listed above also include accessibility coverage.
-
 ## Agents
-
-Agents go beyond skills with coordinated specialists and orchestration. If you have built an agent for iOS or Swift development, submit it.
 
 - [Swift Agents](https://github.com/Techopolis/swift-agents) - 16 orchestrated specialists covering concurrency, SwiftUI, accessibility, security, testing, StoreKit, SwiftData, visionOS, Core ML, MLX, and Foundation Models. Works with Claude Code and VS Code Copilot.
 
 ## MCP Servers
-
-MCP (Model Context Protocol) servers give AI agents access to external tools and data sources.
 
 - [XcodeBuildMCP](https://github.com/nicklama/xcode-build-mcp) - Build, run, and test Xcode projects from AI agents.
 - [Sosumi MCP](https://github.com/kanaa257/sosumi.ai) - Access Apple developer documentation from AI agents.
@@ -153,8 +74,3 @@ MCP (Model Context Protocol) servers give AI agents access to external tools and
 ## Contributing
 
 Contributions welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
-
-**Skill authors:** Submit your iOS and Swift skills. See the contributing guide for requirements.
-
-**Agent authors:** Built an agent for Swift development? Add it to the Agents section.
-
