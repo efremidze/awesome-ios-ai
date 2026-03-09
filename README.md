@@ -18,73 +18,61 @@ AI coding tools write Swift like it is 2020. They use `ObservableObject` when `@
 
 ### SwiftUI
 
-- [SwiftUI Expert](https://skills.sh/avdlee/swiftui-agent-skill/swiftui-expert-skill) - State management, view composition, performance, and iOS 26+ Liquid Glass.
-- [SwiftUI Pro](https://skills.sh/twostraws/swiftui-agent-skill/swiftui-pro) - Modern APIs, accessibility, data flow, navigation, and performance.
-- [SwiftUI Performance Audit](https://skills.sh/dimillian/skills/swiftui-performance-audit) - Diagnose slow rendering, janky scrolling, excessive view updates, and layout thrash.
-- [SwiftUI View Refactor](https://skills.sh/dimillian/skills/swiftui-view-refactor) - Consistent view structure, MV patterns, @Observable usage, and dependency injection.
-- [SwiftUI UI Patterns](https://skills.sh/dimillian/skills/swiftui-ui-patterns) - Component references for TabView, NavigationStack, Sheets, and view composition.
-- [SwiftUI Liquid Glass](https://skills.sh/dimillian/skills/swiftui-liquid-glass) - iOS 26+ Liquid Glass API with `glassEffect`, `GlassEffectContainer`, and availability fallbacks.
-- [SwiftUI Animation](https://skills.sh/dpearson2699/swift-ios-skills/swiftui-animation) - Animation patterns, transitions, and motion design for SwiftUI.
-- [SwiftUI Navigation](https://skills.sh/dpearson2699/swift-ios-skills/swiftui-navigation) - NavigationStack, deep linking, and programmatic navigation patterns.
-- [SwiftUI UIKit Interop](https://skills.sh/dpearson2699/swift-ios-skills/swiftui-uikit-interop) - Bridging SwiftUI and UIKit with representables and hosting controllers.
+- [SwiftUI Expert](https://github.com/AvdLee/SwiftUI-Agent-Skill) - State management, view composition, performance, and iOS 26+ Liquid Glass.
+- [SwiftUI Pro](https://github.com/twostraws/SwiftUI-Agent-Skill) - Modern APIs, accessibility, data flow, navigation, and performance.
+- [SwiftUI Performance Audit](https://github.com/Dimillian/Skills/tree/main/swiftui-performance-audit) - Diagnose slow rendering, janky scrolling, excessive view updates, and layout thrash.
+- [SwiftUI View Refactor](https://github.com/Dimillian/Skills/tree/main/swiftui-view-refactor) - Consistent view structure, MV patterns, @Observable usage, and dependency injection.
+- [SwiftUI UI Patterns](https://github.com/Dimillian/Skills/tree/main/swiftui-ui-patterns) - Component references for TabView, NavigationStack, Sheets, and view composition.
+- [SwiftUI Liquid Glass](https://github.com/Dimillian/Skills/tree/main/swiftui-liquid-glass) - iOS 26+ Liquid Glass API with `glassEffect`, `GlassEffectContainer`, and availability fallbacks.
 
 ### Swift Concurrency
 
-- [Swift Concurrency](https://skills.sh/avdlee/swift-concurrency-agent-skill/swift-concurrency) - Async/await, actors, Sendable, and strict concurrency for Swift 6.
-- [Swift Concurrency Expert](https://skills.sh/dimillian/skills/swift-concurrency-expert) - Swift 6.2+ actor isolation, data-race safety, and minimal-change fixes for compiler errors.
+- [Swift Concurrency](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill) - Async/await, actors, Sendable, and strict concurrency for Swift 6.
+- [Swift Concurrency Expert](https://github.com/Dimillian/Skills/tree/main/swift-concurrency-expert) - Swift 6.2+ actor isolation, data-race safety, and minimal-change fixes for compiler errors.
 
 ### Data and Persistence
 
-- [Core Data Expert](https://skills.sh/avdlee/core-data-agent-skill/core-data-expert) - Data modeling, fetch requests, CloudKit sync, migration, and performance.
-- [SwiftData](https://skills.sh/dpearson2699/swift-ios-skills/swiftdata) - @Model schemas, @Query, predicates, relationships, and migration.
-- [CloudKit Sync](https://skills.sh/dpearson2699/swift-ios-skills/cloudkit-sync) - CloudKit integration, sync strategies, and conflict resolution.
+- [Core Data Expert](https://github.com/AvdLee/Core-Data-Agent-Skill) - Data modeling, fetch requests, CloudKit sync, migration, and performance.
+- [SwiftData](https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swiftdata) - @Model schemas, @Query, predicates, relationships, and migration patterns.
 
 ### Testing
 
-- [Swift Testing Expert](https://skills.sh/avdlee/swift-testing-agent-skill/swift-testing-expert) - Modern Swift Testing framework with `#expect`, `#require`, traits, tags, parameterized tests, and XCTest migration.
+- [Swift Testing Expert](https://github.com/AvdLee/Swift-Testing-Agent-Skill) - Modern Swift Testing framework with `#expect`, `#require`, traits, tags, parameterized tests, and XCTest migration.
 
-### Debugging and Performance
+### Debugging
 
-- [iOS Debugger Agent](https://skills.sh/dimillian/skills/ios-debugger-agent) - Build, run, and debug iOS apps on simulators via XcodeBuildMCP.
-- [MetricKit Diagnostics](https://skills.sh/dpearson2699/swift-ios-skills/metrickit-diagnostics) - Production performance monitoring, crash reports, and diagnostic payloads.
-- [Debugging Instruments](https://skills.sh/dpearson2699/swift-ios-skills/debugging-instruments) - Instruments profiling, Time Profiler, Allocations, and Leaks.
+- [iOS Debugger Agent](https://github.com/Dimillian/Skills/tree/main/ios-debugger-agent) - Build, run, and debug iOS apps on simulators via XcodeBuildMCP.
 
 ### AI and Machine Learning
 
-- [Apple On-Device AI](https://skills.sh/dpearson2699/swift-ios-skills/apple-on-device-ai) - Foundation Models, on-device inference, and Apple Intelligence integration.
-- [Core ML](https://skills.sh/dpearson2699/swift-ios-skills/coreml) - Model conversion, optimization, deployment, and on-device prediction.
-- [Vision Framework](https://skills.sh/dpearson2699/swift-ios-skills/vision-framework) - Image analysis, OCR, face detection, and barcode scanning.
+- [Apple On-Device AI](https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/apple-on-device-ai) - Foundation Models, on-device inference, and Apple Intelligence integration.
 
 ### Design and Platform
 
-- [iOS HIG](https://skills.sh/johnrogers/claude-swift-engineering/ios-hig) - Apple Human Interface Guidelines compliance checks.
-- [iOS 26 Platform](https://skills.sh/johnrogers/claude-swift-engineering/ios-26-platform) - Platform APIs and patterns for iOS 26.
-- [Mobile iOS Design](https://skills.sh/wshobson/agents/mobile-ios-design) - iOS design patterns and architecture guidance.
+- [iOS HIG](https://github.com/johnrogers/claude-swift-engineering/tree/main/plugins/swift-engineering/skills/ios-hig) - Apple Human Interface Guidelines compliance checks.
+- [iOS 26 Platform](https://github.com/johnrogers/claude-swift-engineering/tree/main/plugins/swift-engineering/skills/ios-26-platform) - Platform APIs and patterns for iOS 26.
+- [Mobile iOS Design](https://github.com/wshobson/agents) - iOS design patterns and architecture guidance.
 
 ### App Frameworks
 
-- [App Intents](https://skills.sh/dpearson2699/swift-ios-skills/app-intents) - Siri, Shortcuts, and App Intents framework integration.
-- [Live Activities](https://skills.sh/dpearson2699/swift-ios-skills/live-activities) - Dynamic Island and Lock Screen live updates with ActivityKit.
-- [StoreKit](https://skills.sh/dpearson2699/swift-ios-skills/storekit) - In-app purchases, subscriptions, and entitlement verification with the StoreKit 2 API.
-- [WidgetKit](https://skills.sh/dpearson2699/swift-ios-skills/widgetkit) - Home Screen and Lock Screen widget development.
-- [Push Notifications](https://skills.sh/dpearson2699/swift-ios-skills/push-notifications) - APNs, notification content, and delivery management.
-- [MapKit Location](https://skills.sh/dpearson2699/swift-ios-skills/mapkit-location) - Maps, annotations, routing, and location services.
+- [App Intents](https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/app-intents) - Siri, Shortcuts, and App Intents framework integration.
+- [Live Activities](https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/live-activities) - Dynamic Island and Lock Screen live updates with ActivityKit.
+- [WidgetKit](https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/widgetkit) - Home Screen and Lock Screen widget development.
 
 ### Workflow and Automation
 
 - [App Store Changelog](https://github.com/Dimillian/Skills/tree/main/app-store-changelog) - Generate App Store release notes from Git history.
 - [GH Issue Fix Flow](https://github.com/Dimillian/Skills/tree/main/github) - End-to-end GitHub issue resolution with read, fix, build, test, and push.
 - [macOS SwiftPM Packaging](https://github.com/Dimillian/Skills/tree/main/macos-spm-app-packaging) - Scaffold, build, and package SwiftPM macOS apps without Xcode.
-- [Swift MCP Server Generator](https://skills.sh/github/awesome-copilot/swift-mcp-server-generator) - Generate MCP servers in Swift.
 
 ### Accessibility
 
-- [iOS Accessibility](https://skills.sh/dpearson2699/swift-ios-skills/ios-accessibility) - VoiceOver support, accessibility modifiers, and Dynamic Type patterns for iOS.
-- [Swift Accessibility](https://skills.sh/madebyecho/agent-skills/swift-accessibility) - Accessibility guidance and best practices for Swift apps.
+- [iOS Accessibility](https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/ios-accessibility) - VoiceOver support, accessibility modifiers, and Dynamic Type patterns for iOS.
+- [Swift Accessibility](https://github.com/madebyecho/agent-skills) - Accessibility guidance and best practices for Swift apps.
 
 ### WebAssembly
 
-- [SwiftWasm](https://github.com/swiftwasm/skills) - Swift on WebAssembly with JavaScript interop, BridgeJS, and compatibility checks.
+- [SwiftWasm Skills](https://github.com/swiftwasm/skills) - Swift on WebAssembly with JavaScript interop, BridgeJS, and compatibility checks.
 
 ## Agents
 
