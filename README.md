@@ -30,6 +30,10 @@ AI coding tools write Swift like it is 2020. They use `ObservableObject` when `@
 - [Swift Concurrency](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill) - Async/await, actors, Sendable, and strict concurrency for Swift 6.
 - [Swift Concurrency Expert](https://github.com/Dimillian/Skills/tree/main/swift-concurrency-expert) - Swift 6.2+ actor isolation, data-race safety, and minimal-change fixes for compiler errors.
 
+### Architecture
+
+- [Swift Architecture](https://github.com/efremidze/swift-architecture-skill) - Select and apply MVP, MVVM, MVI, TCA, Clean Architecture, VIPER, Coordinator, and Reactive patterns with concrete playbooks, anti-pattern fixes, and review checklists.
+
 ### Data and Persistence
 
 - [Core Data Expert](https://github.com/AvdLee/Core-Data-Agent-Skill) - Data modeling, fetch requests, CloudKit sync, migration, and performance.
@@ -84,6 +88,7 @@ AI coding tools write Swift like it is 2020. They use `ObservableObject` when `@
 - [Xcode MCP Server](https://github.com/r-huijts/xcode-mcp-server) - Xcode project management, simulator control, and build automation for AI assistants.
 - [awesome-copilot MCP](https://github.com/github/awesome-copilot) - Search and install agents, skills, and MCP servers from GitHub.
 - [MCP Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) - Official Swift SDK for building MCP servers and clients.
+- [Swift Patterns MCP](https://github.com/efremidze/swift-patterns-mcp) - Swift and SwiftUI best practices from leading iOS developers with intelligent search and persistent memory.
 
 ## Tools
 
